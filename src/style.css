@@ -1,0 +1,230 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-heading {
+    min-height: 100vh;
+
+}
+
+.main-heading .container {
+    width: 100%;
+}
+
+.main-heading .container .box {}
+
+.main-heading .container .box .heading {
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.main-heading .container .box .heading .logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-heading .container .box .heading .logo img {
+    object-fit: contain;
+    width: 8%;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.main-heading .container .box .heading .logo button {
+    width: 8%;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 10%;
+}
+
+.box .heading .main {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.box .heading .main .huddle {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+    width: 40%;
+}
+
+.box .heading .main .huddle h1 {
+    font-size: 30px;
+    width: 55%;
+}
+
+.box .heading .main .huddle p {
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+    width: 64%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box .heading .main .huddle button {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    width: 30%;
+    height: 39px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.box .heading .main .mockups {
+    width: 40%;
+}
+
+.box .heading .main .mockups img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ----------------------- */
+.box .middle {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box .middle .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #f8f8f8;
+    padding: 30px;
+    padding-left: 100px;
+    border-radius: 15px;
+}
+
+.box .middle .box .left {
+    width: 40%;
+}
+
+.box .middle .box .left h1 {
+    font-size: 30px;
+}
+
+.box .middle .box .left p {
+    color: hsl(208, 11%, 55%);
+    font-size: 13px;
+    width: 75%;
+    line-height: 1.6;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box .middle .box .right {
+    width: 30%;
+}
+
+.box .middle .box .right .image img {
+    width: 100%;
+    object-fit: contain;
+}
+/* ------------- */
+.box .ready{
+    border: 1px solid #ccc;
+    width: 30%;
+    background-color: #1fd2e2;
+    transform: translate(100% , -45%);
+    border-radius: 15px;
+}
+.box .ready .middle{
+   margin: 30px;
+}
+.box .ready .middle h1{
+    font-size: 25px;
+}
+.box .ready .middle button{
+    background-color: hsl(322, 100%, 66%);
+    color:  black;
+    width: 55%;
+    height: 39px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+.box .huddle img{
+    width: 9%;
+    transform: translateX(115%);
+    padding-bottom: 20px;
+}
+.box .fotter{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color:  hsl(192, 100%, 9%);
+}
+.box .fotter .me .info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.box .fotter .me .info i{
+    color: white;
+    padding-left: 12px;
+}
+.box .fotter .me .info span{
+    color: white;
+    width: 35%;
+    font-size: 10px;
+    padding: 12px;
+}
+.box .fotter .contact{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+.box .fotter .contact .about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box .fotter .contact h5{
+    color: white;
+    cursor: pointer;
+}
+.box .fotter .contact h5:hover{
+    color:  hsl(322, 100%, 66%);
+}
+.box .fotter .social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.box .fotter .social i{
+    color: white;
+    cursor: pointer;
+}
+.box .fotter .social i:hover{
+    color:  hsl(322, 100%, 66%);
+}
+.box .fotter .copy{
+    text-align: right;
+    color: green;
+    margin: 30px;
+    padding-right: 8%;
+}
