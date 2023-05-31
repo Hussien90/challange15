@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
 }
-.main-heading .heading .container{
+
+.main-heading .heading .container {
     width: 85%;
     margin: 0 auto;
 }
@@ -18,7 +19,8 @@
     background-repeat: repeat;
     background-color: hsl(193, 100%, 96%);
 }
-@media(max-width:991px){
+
+@media(max-width:991px) {
     .main-heading .heading {
         background-image: url(/images/bg-hero-mobile.svg);
     }
@@ -33,10 +35,10 @@
 
 .main-heading .heading .logo img {
     object-fit: contain;
-   
+
 }
 
-.main-heading  .heading .logo button {
+.main-heading .heading .logo button {
     width: 150px;
     background-color: white;
     border-style: none;
@@ -50,18 +52,21 @@
     display: flex;
     align-items: center;
 }
-@media(max-width:991px){
-    .main-heading .heading .main{
+
+@media(max-width:991px) {
+    .main-heading .heading .main {
         flex-direction: column;
     }
 }
+
 .main-heading .heading .main .huddle {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-@media(max-width:991px){
-    .main-heading .heading .main .huddle{
+
+@media(max-width:991px) {
+    .main-heading .heading .main .huddle {
         align-items: center;
     }
 }
@@ -70,8 +75,9 @@
     font-size: 30px;
     width: 50%;
 }
-@media(max-width:991px){
-    .main-heading .heading .main .huddle h1{
+
+@media(max-width:991px) {
+    .main-heading .heading .main .huddle h1 {
         padding-top: 80px;
         text-align: center;
     }
@@ -83,8 +89,9 @@
     width: 57%;
     font-family: 'Open Sans', sans-serif;
 }
-@media(max-width:991px){
-    .main-heading .heading .main .huddle p{
+
+@media(max-width:991px) {
+    .main-heading .heading .main .huddle p {
         text-align: center;
         width: 54%;
         font-size: 20px;
@@ -105,41 +112,47 @@
     width: 100%;
 }
 
-@media(max-width:991px){
-    .main-heading .heading .main .mockups{
-       padding-top: 70px;
+@media(max-width:991px) {
+    .main-heading .heading .main .mockups {
+        padding-top: 70px;
     }
 }
+
 /* ----------------------- */
-.main-heading .middle .container{
+.main-heading .middle .container {
     width: 85%;
     margin: 0 auto;
     padding: 100px 0;
 }
+
 .main-heading .middle .container .box {
     display: flex;
-    gap: 25px;
+    justify-content: space-between;
     align-items: center;
     padding: 30px;
     border-radius: 15px;
     margin: 30px;
     box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.3);
 }
-@media(max-width:991px){
-    .main-heading .middle .container .box:nth-child(1) ,  .main-heading .middle .container .box:nth-child(3) {
-       flex-direction: column-reverse;
+
+@media(max-width:991px) {
+    .main-heading .middle .container .box:nth-child(1), .main-heading .middle .container .box:nth-child(3) {
+        flex-direction: column-reverse;
     }
 }
-@media(max-width:991px){
+
+@media(max-width:991px) {
     .main-heading .middle .container .box:nth-child(2) {
-       flex-direction: column;
+        flex-direction: column;
     }
 }
-@media(max-width:991px){
+
+@media(max-width:991px) {
     .main-heading .middle .container .box .left {
-       text-align: center;
+        text-align: center;
     }
 }
+
 .main-heading .middle .container .box .left h1 {
     font-size: 30px;
 }
@@ -152,20 +165,22 @@
     padding-top: 10px;
     font-family: 'Open Sans', sans-serif;
 }
-@media(max-width:991px){
-    .main-heading .middle .container .box .left p  {
+
+@media(max-width:991px) {
+    .main-heading .middle .container .box .left p {
         margin-left: 30%;
         width: 38%;
     }
 }
 
 .main-heading .middle .container .box .right .image img {
-    width: 100%;
+    width: 400px;
     object-fit: contain;
 }
+
 /* ------------- */
 
-.main-heading  .ready  .middle{
+.main-heading .ready .middle {
     height: 250px;
     border-radius: 15px;
     width: 38%;
@@ -179,102 +194,125 @@
     background-color: white;
     transform: translatey(50%);
 }
-@media(max-width:991px){
-    .main-heading  .ready  .middle {
+
+@media(max-width:991px) {
+    .main-heading .ready .middle {
         width: 90%;
     }
 }
 
-.main-heading .ready .middle h1{
+.main-heading .ready .middle h1 {
     font-size: 25px;
 }
-.main-heading  .ready  .middle button{
+
+.main-heading .ready .middle button {
     background-color: hsl(322, 100%, 66%);
-    color:  hsl(193, 100%, 96%);
+    color: hsl(193, 100%, 96%);
     width: 55%;
     height: 50px;
     border-radius: 50px;
     border-style: none;
     cursor: pointer;
 }
+
 /* ---------------------------------------------- */
-.main-heading .fotter{
-    background-color:  hsl(192, 100%, 9%);
+.main-heading .fotter {
+    background-color: hsl(192, 100%, 9%);
     padding: 150px 0;
 }
-.main-heading .fotter .container{
+
+.main-heading .fotter .container {
     width: 85%;
     margin: 0 auto;
+
+}
+
+.main-heading .fotter .container .wrabber {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
 }
-@media(max-width:991px){
-    .main-heading .fotter .container {
+
+@media(max-width:991px) {
+    .main-heading .fotter .wrabber {
         flex-direction: column;
     }
 }
-.main-heading .fotter .container svg path{
-   fill: hsl(193, 100%, 96%);
+
+.main-heading .fotter .container svg path {
+    fill: hsl(193, 100%, 96%);
 }
-.main-heading .fotter .container .me{
+
+.main-heading .fotter .container .me {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.main-heading .fotter .me .info{
+.main-heading .fotter .me .info {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.main-heading .fotter .container .me .info i{
+
+.main-heading .fotter .container .me .info i {
     color: white;
     padding-left: 12px;
 }
-.main-heading .fotter .container .me .info span{
+
+.main-heading .fotter .container .me .info span {
     color: white;
     font-size: 10px;
     padding: 12px;
 }
-.main-heading .fotter .container .contact{
+
+.main-heading .fotter .container .contact {
     display: flex;
     gap: 75px;
     align-items: center;
 }
-@media(max-width:991px){
+
+@media(max-width:991px) {
     .main-heading .fotter .container .contact {
-        flex-direction:column; 
+        flex-direction: column;
         align-items: start;
         gap: 19px;
         margin-left: 12px;
     }
 }
-.main-heading .fotter .container .contact .about{
+
+.main-heading .fotter .container .contact .about {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.main-heading .fotter .container .contact h5{
+
+.main-heading .fotter .container .contact h5 {
     color: white;
     cursor: pointer;
 }
-.main-heading .fotter .container .contact h5:hover{
-    color:  hsl(322, 100%, 66%);
+
+.main-heading .fotter .container .contact h5:hover {
+    color: hsl(322, 100%, 66%);
 }
-.main-heading .fotter .container .social{
+
+.main-heading .fotter .container .social {
     display: flex;
     gap: 10px;
     padding-top: 80px;
     text-align: center;
+    width: 16%;
 }
-@media(max-width:991px){
-    .main-heading .fotter .container .social{
+
+@media(max-width:991px) {
+    .main-heading .fotter .container .social {
         justify-content: center;
         padding-top: 30px;
+        width: 100%;
     }
 }
-.main-heading .fotter .container .social i{
+
+.main-heading .fotter .container .social i {
     color: white;
     cursor: pointer;
     border: 1px solid white;
@@ -283,23 +321,25 @@
     height: 30px;
     line-height: 30px;
 }
-.main-heading .fotter .container .social i:hover{
-    color:  hsl(322, 100%, 66%);
-    border-color:  hsl(322, 100%, 66%);
+
+.main-heading .fotter .container .social i:hover {
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
 }
-.main-heading .fotter .copy{
-    position: relative;
+
+.main-heading .fotter .copy {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
 }
-.main-heading .fotter .copy span{
+
+.main-heading .fotter .copy span {
     color: white;
-    position: absolute;
-    right: 100px;
-    top: 100px;
     font-size: 12px;
 }
-@media(max-width:991px){
-    .main-heading .fotter .copy span{
-        padding-right: 115px;
-        top: 35px;
+
+@media(max-width:991px) {
+    .main-heading .fotter .copy {
+        justify-content: center;
     }
 }
